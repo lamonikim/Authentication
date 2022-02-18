@@ -4,5 +4,5 @@
 module.exports =
 {
     //"URI": "mongodb://localhost/business_contacts"
-    "URI": "mongodb+srv://Nandini:zvkyHdcQYu1oheGX@mongodbserver.1pggn.mongodb.net/business_contacts?retryWrites=true&w=majority"
+    "URI": "mongodb+srv://LauraAmangeldiyeva:<XZ9ta3l9C2yK70hj>@assignment2.jy8u3.mongodb.net/assignment2?retryWrites=true&w=majority"
 }
