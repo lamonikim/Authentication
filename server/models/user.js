@@ -1,6 +1,7 @@
 /* //Assignment: Assignment 2 Express Portfolio – Authentication 
 // Laura Amangeldiyeva - student id: 301167661 
 // Date: 2022/02/15 */
+
 //require modules for the model
 let mongoose = require('mongoose');
 let passportLocalMongoose = require('passport-local-mongoose');
@@ -13,7 +14,7 @@ let User = mongoose.Schema
             type: String,
             default: "",
             trim: true,
-            required: "you need to add username"
+            required: "You need to add username"
         },
 
        email:
@@ -21,7 +22,7 @@ let User = mongoose.Schema
            type: String,
            default: "",
             trim: true,
-            required: "you need to add email adress"
+            required: "You need to add email adress"
 
        },
        displayName:
@@ -29,7 +30,7 @@ let User = mongoose.Schema
            type: String,
            default: "",
             trim: true,
-            required: "you need to add name"
+            required: "You need to add name"
 
        },
        created:
